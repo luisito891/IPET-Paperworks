@@ -4,7 +4,7 @@ string connectionString = "server=localhost;user=root;password=;database=horario
 using (MySqlConnection connection = new MySqlConnection(connectionString))
 {
     connection.Open();
-    string query = "SELECT * FROM tabla";
+    string query = "SELECT * FROM divisiones";
     using (MySqlCommand command = new MySqlCommand(query, connection))
     {
         using (MySqlDataReader reader = command.ExecuteReader())

@@ -1,4 +1,4 @@
-document.getElementsByClassName("cum").onclick = 
+document.getElementById("cum").onclick = 
 function() {myFunction2()};
 
 function myFunction2() {
